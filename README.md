@@ -5,13 +5,14 @@ This repository is designed to make it easy to install WiFi drivers on computers
 ## Usage
 
 #### Source machine
-1. **Clone** repo on a system with active network connection (**source machine**).
-2. **Run** `./download` for start `*.deb` packages and drivers downloading. Files will be downloaded to `deb` and `drivers` directories accordingly.
+1. **Clone** repo on a system with active network connection (**source machine**)
+2. **Run** `./download` for start `*.deb` packages and drivers downloading. Files will be downloaded to `deb` and `drivers` directories accordingly
 
 #### Target machine
-3. **Copy** repo with downloaded files to machine without network connection (**target machine**).
-4. **Run** `./install-deb` for installation of downloaded deb packages. It will install everything you need for drivers compilation and installation.
-5. **Run** `./install-drivers` for drivers installation.
+3. **Copy** repo with downloaded files to machine without network connection (**target machine**)
+4. **Run** `./install-deb` for installation of downloaded deb packages. It will install everything you need for drivers compilation and installation
+5. **Reboot** for loading latest installed kernel
+5. **Run** `./install-drivers` for drivers installation
 
 ## Contents
 
