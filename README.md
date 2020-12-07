@@ -1,6 +1,6 @@
 ![Logo](./logo.png)
 
-This repository is designed to make it easy to install WiFi drivers on computers with WiFi chips not supported by the Linux kernel out of the box.
+This project aims to simplify WiFi drivers installation on computers with WiFi chips not supported by the Linux kernel out of the box.
 
 ## Usage
 
